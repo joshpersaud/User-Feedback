@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel='stylesheet' href='style.css'>
+</head>
+<title>Index Page</title>
+<body>
+
+<form action="addfeedback" method="post">
+<div class='feedback'>
+Name: <input type='text' class='form-control' name='user'> <br /><br />
+Comment: <textarea rows="4" cols="50" name ='comment' placeholder='Input comment here...'></textarea><br />
+<label for="rating">Choose a rating:</label>
+
+<select id="rating" name="rating">
+  <option value="1">1 = poor</option>
+  <option value="2">2 = fair</option>
+  <option value="3">3 = good</option>
+  <option value="4">4 = Awesome</option>
+</select>
+<input type="submit" value="Submit">
+</div>
+</form>
+</body>
+</html>
